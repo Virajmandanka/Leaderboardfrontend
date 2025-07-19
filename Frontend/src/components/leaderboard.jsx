@@ -4,7 +4,7 @@ function Leaderboard() {
   const [leaderboard, setLeaderboard] = useState([]);
 
   const fetchLeaderboard = async () => {
-    const res = await fetch("hhttps://leaderboard-1-6kwv.onrender.com/api/leaderbord");
+    const res = await fetch("https://leaderboard-1-6kwv.onrender.com/api/leaderbord");
     const data = await res.json();
     setLeaderboard(data);
   };
