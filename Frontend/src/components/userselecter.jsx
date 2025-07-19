@@ -4,7 +4,7 @@ const Userselecter = ({ selectedUserId, setSelectedUserId }) => {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    fetch("https://leaderboard-1-6kwv.onrender.com/api/alluser")
+    fetch("https://leaderboard-2-q3dw.onrender.com/api/alluser")
       .then((res) => res.json())
       .then((data) => setUsers(data))
       .catch((err) => console.log(err));

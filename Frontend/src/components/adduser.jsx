@@ -11,7 +11,7 @@ const handeluser=async()=>{
         {
               return alert("Name is required");
         } 
-        const res =await fetch("https://leaderboard-1-6kwv.onrender.com/api/adduser",{
+        const res =await fetch("https://leaderboard-2-q3dw.onrender.com/api/adduser",{
             method:"POST",
             headers: { "Content-Type": "application/json" },
              body: JSON.stringify({ name })

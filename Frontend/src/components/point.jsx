@@ -9,7 +9,7 @@ function Point() {
 
   const handleClaim = async () => {
     if (!selectedUserId) return alert("Please select a user first.");
-    const res = await fetch(`https://leaderboard-1-6kwv.onrender.com/api/user/${selectedUserId}`, {
+    const res = await fetch(`https://leaderboard-2-q3dw.onrender.com/api/user/${selectedUserId}`, {
       method: "POST",
     });
     const data = await res.json();
